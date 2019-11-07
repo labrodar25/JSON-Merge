@@ -17,7 +17,7 @@ python main.py $filepath$ $baseinfile$ $baseoutfile$ $maxfilesize$
 ```
 Example : 
 ```bash 
-python main.py ./data/ data new 210 
+python main.py ./data/ sample new 210 
 ```
 
 ## Run the unittest 
