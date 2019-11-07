@@ -24,6 +24,7 @@ python unitTest.py
 ## Description 
 
 Algorithm : We open each file in the increasing suffix order and keep dumping it into a local json object til maxFilesize is reached. Once it is reached, we write the previously copied content into a out file and reset the json object to take in new loads of json data. 
+All the functional and non-functional requirements have been satisfied. 
 
 ### Time Complexity : 
 
@@ -32,3 +33,4 @@ O(maxFilesize * number of files) and a better bound would be, $O(\sum_{i=1}^{N} 
 ### Space Complexity : 
 
 O(maxFilesize)
+
