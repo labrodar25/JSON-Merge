@@ -21,7 +21,6 @@ class mergeJsonFiles:
 		counter = 1
 		fileNames = glob.glob(baseInFile +'*.json')
 		fileNames.sort(key=self.__natural_keys)
-		print(fileNames)
 		for data_file in fileNames:
 			with open(data_file) as json_file:
 				currSize = os.path.getsize(data_file)
@@ -35,7 +34,7 @@ class mergeJsonFiles:
 					size=0
 				data = json.load(json_file)
 				for (key,val) in data.items():
-					res[key].append(val)
+					res[key].extend(val)
 				size+=currSize
 				
 		if(res):
