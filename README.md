@@ -29,8 +29,6 @@ Algorithm : We open each file in the increasing suffix order and keep dumping it
 
 O(maxFilesize * number of files) and a better bound would be, $O(\sum_{i=1}^{N} fileSize_i)$
 
-![equation]("https://latex.codecogs.com/gif.latex?$O(\sum_{i=1}^{N}&space;fileSize_i)")
-
 ### Space Complexity : 
 
 O(maxFilesize)
