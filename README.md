@@ -15,8 +15,10 @@ python setup.py install
 ```bash
 python main.py $filepath$ $baseinfile$ $baseoutfile$ $maxfilesize$
 ```
-Example : python main.py ./sample/ data new 210 
-
+Example : 
+```bash 
+python main.py ./data/ data new 210 
+```
 
 ## Run the unittest 
 
